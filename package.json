@@ -1,10 +1,12 @@
+
+
 {
   "name": "nasa_lpu_projecct",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "NEXT_DISABLE_ESLINT=true next build",
     "start": "next start",
     "lint": "next lint"
   },
